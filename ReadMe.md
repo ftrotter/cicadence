@@ -63,6 +63,7 @@ Results
 --------------------
 With the default parameters, the script produces: 
 
+```
 Prime with the lowest weighted collision score = 89 (score=10)
 
 Prime : Weighted collision score (lower is better)
@@ -87,3 +88,4 @@ Prime : Weighted collision score (lower is better)
 79 : 11
 83 : 11
 89 : 10
+```
