@@ -52,3 +52,38 @@ Customization
 * Change `BASE_WINDOWS` to suit your organisation’s standard KPI windows.
 * Change `HORIZON_DAYS` (default 3650, 10 years) if you care about a shorter/longer
   planning horizon.
+
+
+code runs on command line: 
+```bash
+>  python prime_lookback_picker.py
+```
+
+Results
+--------------------
+With the default parameters, the script produces: 
+
+Prime with the lowest weighted collision score = 89 (score=10)
+
+Prime : Weighted collision score (lower is better)
+
+11 : 99
+13 : 84
+17 : 63
+19 : 57
+23 : 45
+29 : 36
+31 : 32
+37 : 28
+41 : 23
+43 : 23
+47 : 21
+53 : 18
+59 : 17
+61 : 14
+67 : 13
+71 : 13
+73 : 34
+79 : 11
+83 : 11
+89 : 10
