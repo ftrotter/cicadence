@@ -89,3 +89,12 @@ Prime : Weighted collision score (lower is better)
 83 : 11
 89 : 10
 ```
+
+Discussion
+----------------
+Obviously 89 "wins" from a collision perspective, but time periods of 29 or 31 days might be the most useful... 
+
+ymmv.
+
+-ft
+
