@@ -136,9 +136,11 @@ def weighted_collision_score(p: int, horizon: int = HORIZON_DAYS) -> int:
 # ----------------------------------------------------------------------#
 # Main evaluation
 # ----------------------------------------------------------------------#
-def evaluate_primes(lower: int = 11, upper: int = 89) -> Dict[int, int]:
+def evaluate_primes(lower: int = 11, upper: int = 700) -> Dict[int, int]:
     """
     Build a dict {prime: score} for all primes in (lower, upper).
+
+    Note: every prime above 700 days, has a 0 within a 10 year window.
 
     Returns
     -------

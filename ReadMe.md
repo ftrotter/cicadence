@@ -65,8 +65,6 @@ Results
 With the default parameters, the script produces: 
 
 ```
-Prime with the lowest weighted collision score = 89 (score=10)
-
 Prime : Weighted collision score (lower is better)
 
 11 : 99
@@ -89,11 +87,115 @@ Prime : Weighted collision score (lower is better)
 79 : 11
 83 : 11
 89 : 10
+97 : 9
+101 : 9
+103 : 9
+107 : 8
+109 : 8
+113 : 8
+127 : 6
+131 : 5
+137 : 5
+139 : 5
+149 : 5
+151 : 5
+157 : 5
+163 : 5
+167 : 5
+173 : 5
+179 : 4
+181 : 4
+191 : 3
+193 : 3
+197 : 3
+199 : 3
+211 : 3
+223 : 3
+227 : 3
+229 : 3
+233 : 3
+239 : 3
+241 : 3
+251 : 3
+257 : 3
+263 : 2
+269 : 2
+271 : 2
+277 : 2
+281 : 2
+283 : 2
+293 : 2
+307 : 2
+311 : 2
+313 : 2
+317 : 2
+331 : 2
+337 : 2
+347 : 2
+349 : 2
+353 : 2
+359 : 2
+367 : 1
+373 : 1
+379 : 1
+383 : 1
+389 : 1
+397 : 1
+401 : 1
+409 : 1
+419 : 1
+421 : 1
+431 : 1
+433 : 1
+439 : 1
+443 : 1
+449 : 1
+457 : 1
+461 : 1
+463 : 1
+467 : 1
+479 : 1
+487 : 1
+491 : 1
+499 : 1
+503 : 1
+509 : 1
+521 : 1
+523 : 0
+541 : 0
+547 : 0
+557 : 0
+563 : 0
+569 : 0
+571 : 0
+577 : 0
+587 : 0
+593 : 0
+599 : 0
+601 : 0
+607 : 0
+613 : 0
+617 : 0
+619 : 0
+631 : 0
+641 : 0
+643 : 0
+647 : 0
+653 : 0
+659 : 0
+661 : 0
+673 : 0
+677 : 0
+683 : 0
+691 : 0
+
 ```
 
 Discussion
 ----------------
-Obviously 89 "wins" from a collision perspective, but time periods of 29 or 31 days might be the most useful... 
+For numbers under 100 days, 89 "wins" from a collision perspective, but time periods of 29 or 31 days might be the most useful... 
+
+The next number to note is 523, which is less than two years, and is the first number with no collisions in a 10 year time-span. 
 
 ymmv.
 
