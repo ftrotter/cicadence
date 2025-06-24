@@ -1,4 +1,4 @@
-Cicadene for Primeval Privacy Math
+Cicadence for Primeval Privacy Math
 =============================
 Prime Lookback Picker i.e. Cicada Number Picker
 
